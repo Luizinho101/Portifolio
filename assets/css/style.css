@@ -35,6 +35,12 @@ section {
     background-color: #cccccc;
 }
 */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+   
+}
 html{
     overflow-x: hidden;
     width: 100vw;
@@ -48,21 +54,27 @@ html{
 }
 .section1{
     display: flex;
+    width: 100vw;
+    height: 100vh;
    
     background:black;
 }
 .desc2{
     display: flex;
+    width: 100vw;
+    height: 100vh;
    
     background:black;
 }
 .topico1{
-    margin-top: 8.13rem;
+    
+    margin-top: 8rem;
     margin-left:6.6rem ;
     width: 31.25rem;
     height: 12.5625rem;
     flex-shrink: 0;
     color: #5EC9CC;
+    margin-right: 0rem;
 
     font-family: Inter;
     font-size: 4.375rem;
@@ -78,26 +90,133 @@ html{
 }
 .image1{
   
-    margin-top: 20.6rem;
+    
+    margin-top: 22.6rem;
     margin-left:11.44rem ;
+    width: 4.4375rem;
+    height: 4.5rem;
+    flex-shrink: 0;
+    border-radius: 12.53125rem;
 }
 .image2{
   
-    margin-top: 20.6rem;
-    margin-left:21.44rem ;
+    margin-top: 23rem;
+    margin-left:5.56rem ;
 }
 .descricao{
-    margin-top: -40.6rem;
+    margin-top: -17rem;
     margin-left:6.6rem ;
     width: 31rem;
     height: 10.0625rem;
     flex-shrink: 0;
-
-    color:white;
+    color: white;
 
     font-family: Inter;
     font-size: 1.75rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.section2 {
+   
+    
+    width: 90rem;
+    height: 64rem;
+    width: 100vw;
+    height: 100vh;
+   
+    background:black;
+}
+.contono{
+    display: flex;
+    margin-top: 20rem;
+    margin-left: 10rem;
+    margin-bottom: 10rem;
+
+    height: 20rem; 
+   
+    border: 2px solid #5EC9CC ;
+    border-radius: 5rem;
+
+    width: 78.26763rem;
+    height: 21.61881rem;
+    transform: rotate(-0.385deg);
+    flex-shrink: 0;
+    border-radius: 4.3125rem;
+    background: #0A0A0A;
+
+
+  
+}
+.imgpokemon{
+
+    margin: 2rem;
+    margin-left: 10rem;
+    
+    width: 15.1875rem;
+    height: 16.25rem;
+    flex-shrink: 0;
+    border-radius: 7.125rem;
+   
+}
+.texto{
+    
+}
+.descricaopokemon{
+
+    margin: 2rem;
+
+    width: 39.3125rem;
+    height: 8.125rem;
+    flex-shrink: 0;
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.botoes{
+    display: flex;
+}
+
+.botao{
+
+    margin: 2rem;
+
+    color: #000;
+
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+    width: 19.6875rem;
+    height: 5.5rem;
+    flex-shrink: 0;
+    border-radius: 6rem;
+    background: #5EC9CC;
+}
+.botao2{
+
+    margin: 2rem;
+
+    width: 10.25rem;
+    color: #000;
+
+    font-family: Inter;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 19.6875rem;
+    height: 5.5rem;
+    flex-shrink: 0;
+    border-radius: 6rem;
+    background: #5EC9CC;
 }
