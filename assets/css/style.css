@@ -1,966 +1,249 @@
-/*
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-   
+    background-color: black;
 }
-html{
-    overflow-x: hidden;
-    width: 100vw;
-    height: 100vh;
-}
-section {
-    height: 100vh;
-    
+
+.tela {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-}
-
-
-.section1 {
-    width: 100vw;
     height: 100vh;
-    background-color:black;
-    color:blue;
-    font-size: 200%;
 }
 
-#section2 {
-    background-color: #dcdcdc;
-}
-
-#section3 {
-    background-color: #cccccc;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-body {
-    margin: 0;
-    padding: 0;
-    background-color: black;
-   
-}
-html{
-    overflow-x: hidden;
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
-}
-.padrao{
-    
-    width: 90rem;
-    height: 64rem;
-    background-color: black;
-}
-.section1{
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-   
-    background:black;
-}
-.desc2{
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-   
-    background:black;
-}
-.topico1{
-    
-    margin-top: 8rem;
-    margin-left:6.6rem ;
-    width: 31.25rem;
-    height: 12.5625rem;
-    flex-shrink: 0;
-    color: #5EC9CC;
-   
-
-    font-family: Inter;
-    font-size: 4.375rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-.imagem{
-    width: 46.625rem;
-    height: 67.3125rem;
-    flex-shrink: 0;
-   
-}
-.image1{
-  
-    
-    margin-top: 22.6rem;
-    margin-left:11.44rem ;
-    width: 4.4375rem;
-    height: 4.5rem;
-    flex-shrink: 0;
-    border-radius: 12.53125rem;
-}
-.image2{
-  
-    margin-top: 23rem;
-    margin-left:5.56rem ;
-}
-.descricao{
-    margin-top: -17rem;
-    margin-left:6.6rem ;
-    width: 31rem;
-    height: 10.0625rem;
-    flex-shrink: 0;
-    color: white;
-
-    font-family: Inter;
-    font-size: 1.75rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.section2 {
-   
-    
-    width: 90rem;
-    height: 64rem;
-    width: 100vw;
-    height: 100vh;
-   
-    background:black;
-}
-.contono{
-    display: flex;
-    margin-top: 20rem;
-    margin-left: 10rem;
-    margin-bottom: 10rem;
-
-    height: 20rem; 
-   
-    border: 2px solid #5EC9CC ;
-    border-radius: 5rem;
-
-    width: 78.26763rem;
-    height: 21.61881rem;
-    transform: rotate(-0.385deg);
-    flex-shrink: 0;
-    border-radius: 4.3125rem;
-    background: #0A0A0A;
-
-
-  
-}
-.imgpokemon{
-
-    margin: 2rem;
-    margin-left: 10rem;
-    
-    width: 15.1875rem;
-    height: 16.25rem;
-    flex-shrink: 0;
-    border-radius: 7.125rem;
-   
-}
-.texto{
-    
-}
-.descricaopokemon{
-
-    margin: 2rem;
-
-    width: 39.3125rem;
-    height: 8.125rem;
-    flex-shrink: 0;
-    color: #FFF;
-
-    font-family: Inter;
-    font-size: 2.1875rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-.botoes{
-    display: flex;
-}
-
-.botao{
-
-    margin: 2rem;
-
-    color: #000;
-
-    font-family: Inter;
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-
-
-    width: 19.6875rem;
-    height: 5.5rem;
-    flex-shrink: 0;
-    border-radius: 6rem;
-    background: #5EC9CC;
-}
-.botao2{
-
-    margin: 2rem;
-
-    width: 10.25rem;
-    color: #000;
-
-    font-family: Inter;
-    font-size: 3.125rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-
-    width: 19.6875rem;
-    height: 5.5rem;
-    flex-shrink: 0;
-    border-radius: 6rem;
-    background: #5EC9CC;
-}
-
-*/
-/*
-
-body, h1, h2, h3, p, ul, ol, li, figure, figcaption, blockquote {
-    margin: 0;
-    padding: 0;
-*/
-
-
-/*
-
-.tela1{
-    width: 90rem;
-    height: 64rem;
-    background-color: black;
-    display: flex;
-}
-.topico1{
-    margin-top: 9.75rem;
-    margin-left: 6.6rem;
-    width: 31.25rem;
-    height: 12.5625rem;
-    flex-shrink: 0;
-    color: #5EC9CC;
-
-    font-family: Inter;
-    font-size: 4.375rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-.conteiner1t1{
-    
-   
-}
-.conteiner2t1{
-    width: 43.875rem;
-    height: 64rem;
-    flex-shrink: 0;
-    
-    
-   
-}
-.imagens{
-    display: flex;
-    
-}
-.image1{
-    margin-top: 10.13rem;
-    margin-left: 11.81rem;
-
-}
-.image2{
-    margin-top: 10.85rem;
-    margin-left: 5.44rem;
-
-}
-.imagempessoa{
-    width: 43.875rem;
-    height: 64rem;
-    flex-shrink: 0;
-    width: 200%;
-    height: auto;
-    
-}
-.descricaosobremim{
-    margin-left: 6.6rem;
-    margin-top: 3.75rem;
-    width: 29.875rem;
-    height: 18.875rem;
-    flex-shrink: 0;
-    color: #FFF;
-
-    font-family: Inter;
-    font-size: 1.75rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-
-.tela2{
-    width: 90rem;
-    height: 64rem;
-    background-color: black;
-    display: flex;
-}
-.contono{
-    display: flex;
-    width: 78.26763rem;
-    height: 21.61881rem;
-    transform: rotate(-0.385deg);
-    flex-shrink: 0;
-    border-radius: 4.3125rem;
-
-    margin-top: 20rem;
-    margin-left: 10rem;
-    margin-bottom: 10rem;
-
-    border: 2px solid #5EC9CC ;
-   
-}
-.descricaopokemon{
-    margin-top: 2.94rem;
-    margin-left: 5.5rem;
-    width: 39.3125rem;
-    height: 8.125rem;
-    flex-shrink: 0;
-    color: #FFF;
-
-    font-family: Inter;
-    font-size: 2.1875rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-.botoes{
-    display: flex;
-}
-.botao{
-
-    margin-left: 5.5rem;
-    margin-top: 4.03rem;
-
-    width: 19.6875rem;
-    height: 5.5rem;
-    flex-shrink: 0;
-    border-radius: 6rem;
-    background: #5EC9CC;
-
-
-    color: #000;
-    font-family: Inter;
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.botao2{
-
-    margin-top: 4.03rem;
-    margin-left: 2.38rem;
-
-    width: 19.6875rem;
-    height: 5.5rem;
-    flex-shrink: 0;
-    border-radius: 6rem;
-    background: #5EC9CC;
-    
-
-    color: #000;
-    font-family: Inter;
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-.imgpokemon{
-
-    margin-top: 2.94rem;
-    margin-left: 13.44rem;
-
-    width: 15.1875rem;
-    height: 16.25rem;
-    flex-shrink: 0;
-    border-radius: 7.125rem;
-}
-*/
-img {
-    margin: 0;
-    padding: 0;
-
-    border: 0; /* Remove bordas em torno das imagens vinculadas */
-    display: block; /* Remove espaço em branco adicional sob as imagens inline */
-    max-width: 100%; /* Garante que as imagens não sejam maiores que o contêiner pai */
-    height: auto; /* Mantém a proporção da imagem */
-}
-
-html{
-    overflow-x: hidden;
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
-}
-.component2{
-    display: none;
-}
-
-.topico1{
-    
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-bottom: 5rem;
-
-    width: 18.1875rem;
-    height: 5.9375rem;
-    flex-shrink: 0;
-    color: #5EC9CC;
-
-    font-family: Inter;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-.container{
-    margin-left: auto;
-    margin-right: auto;
-   
-   
+.container {
     background: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh; /* Define a altura para ocupar toda a tela */
+}
+
+.container-titulo {
+    margin-top: 4rem;
+    align-self: flex-start;
+}
+
+.titulo {
+    
+    font-size: calc(3rem + 1vw);
+    font-weight: bold;
+    color: #5EC9CC;
+}
+.github, .linkedin{
+   
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 3rem;
+    text-decoration: none; 
     
 }
-.imagempricinpal{
-    
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-   
-
-    margin-bottom: 4.31rem;
-   
-
-    width: 17.625rem;
-    height: 17.625rem;
-    flex-shrink: 0;
+.container-descricao {
+    display: none;
+    margin-bottom: 10px;
+    color: #5EC9CC;
 }
 
-.imagens{
-    display: flex;
+.descricao {
+    font-size: 3rem;
 }
+
+.container-imagem img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.container-redessociais {
+ 
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centralize verticalmente na tela inteira */
+}
+
+
+
+
 .image1{
+    max-width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
-
-    margin-top: 4.6rem;
-    margin-bottom: 1.94rem;
-   
-
-
-    width: 2.5625rem;
-    height: 2.8125rem;
-    flex-shrink: 0;
-    border-radius: 12.53125rem;
-
-}
-.image2{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4.90rem;
-    margin-left: -2.75rem;
-
-    width: 2.0625rem;
-    height: 2.375rem;
-    flex-shrink: 0;
-    border-radius: 5.9375rem;
-}
-.imagempricinpal2{
-    display: none;
-}
-.descricaosobremim{
-    display: none;
-}
-
-
-/*tela 2*/
-.tela2{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: black;
-}
-.contono{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20rem; /* Largura do retângulo */
-    height: 40rem; /* Altura do retângulo */
+    width: 9rem; /* Largura do retângulo */
+    height: 3rem; /* Altura do retângulo */
     border-radius: 4rem;
     border: 2px solid #5EC9CC; 
     background-color: black;
-}
-.texto{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -1rem;
-    width: 17.12594rem;
-    height: 12.90725rem;
-    transform: rotate(-0.268deg);
-    flex-shrink: 0;
-    color: #FFF;
 
-    font-family: Inter;
-    font-size: 1.5625rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
-.imgpokemon{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2rem;
-
-    width: 9.01219rem;
-    height: 8.10806rem;
-    transform: rotate(-0.357deg);
-    flex-shrink: 0;
-    border-radius: 7.125rem;
-    
-}
-.imgpokemon2{
-    display: none;
-}
-.botoes{
-    margin-top: 2rem;
+.image2{
+    margin-top: 1rem;
+    max-width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
+    width: 9rem; /* Largura do retângulo */
+    height: 3rem; /* Altura do retângulo */
+    border-radius: 4rem;
+    border: 2px solid #5EC9CC; 
+    background-color: black;
+
 }
-.botao{
-    
-    /*Deixando respondido*/
-    
-   
-    /*Contorno do botao*/
-    width: 14.11544rem;
-    height: 4.20413rem;
-    transform: rotate(0.44deg);
-    flex-shrink: 0;
-    border-radius: 6rem;
-    background: #5EC9CC;
-
-    /*Texto do botao*/
-   
-    
-    transform: rotate(0.643deg);
-    color: #000;
-    
-    font-family: Inter;
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-.botao2{
-    margin-top: 0.3rem;
-    color: #000;
-
-    font-family: Inter;
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-
-    width: 14.11544rem;
-    height: 4.20413rem;
-    transform: rotate(0.44deg);
-    flex-shrink: 0;
-    border-radius: 6rem;
-    background: #5EC9CC;
+@media (max-width: 148px){
+    .image1, .image2{
+        width: 9rem; /* Largura do retângulo */
+        height: 3rem; /* Altura do retângulo */
     }
-
-
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .topico1 {
-        margin-left: auto;
-        margin-right: auto;
-    
-        
-        margin-bottom: 3.87rem;
-        
-
-        width: 35.9375rem;
-        height: 10.375rem;
-        flex-shrink: 0;
-        color: #5EC9CC;
-
-        font-family: Inter;
-        font-size: 2.75rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    .imagempricinpal {
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-top: 5rem;
+    .github, .linkedin{
        
-
-        width: 30.375rem;
-        height: 33.8125rem;
-        flex-shrink: 0;
-    }
-    .imagens{
-        display: flex;
-       
-       
-    }
-    .image1{
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-        flex-direction: row;
-        flex-wrap: wrap;
-
-        margin-top: 6.88rem;
-        margin-bottom: 4.56rem;
-       
-    
-    
-        width: 4.4375rem;
-        height: 4.5rem;
-        flex-shrink: 0;
-        border-radius: 12.53125rem;
-    
-    }
-    .image2{
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-left: -10rem;
-        
-        margin-top: 7.44rem;
-      
-      
-    
-        width: 3.25rem;
-        height: 3.375rem;
-        flex-shrink: 0;
-        border-radius: 5.9375rem;
-    }
-
-    /*tela2*/
-    .tela2{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: black;
-    }
-    .contono{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-left: auto;
-        margin-right: auto;
-        width: 40rem; /* Largura do retângulo */
-        height: 80rem; /* Altura do retângulo */
-        border-radius: 4rem;
-        border: 2px solid #5EC9CC; 
-        background-color: black;
-    }
-    .imgpokemon{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-left: auto;
-        margin-right: auto;
-
-        margin-left: 12.8rem;
-        width: 21.12494rem;
-        height: 21.126rem;
-        transform: rotate(-0.444deg);
-        flex-shrink: 0;
-        border-radius: 7.125rem;
-    }
-    .texto{
-        width: 35.40725rem;
-        height: 15.97981rem;
-        transform: rotate(-0.333deg);
-        flex-shrink: 0;
-        color: #FFF;
-
-        font-family: Inter;
-        font-size: 2.5rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    .botao{
-        width: 19.68156rem;
-        height: 5.75188rem;
-        transform: rotate(0.8deg);
-        flex-shrink: 0;
-        color: #000;
-        font-family: Inter;
-        font-size: 3.75rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-
-
-        width: 33.67494rem;
-        height: 8.06044rem;
-        transform: rotate(0.548deg);
-        flex-shrink: 0;
-        border-radius: 6rem;
-        background: #5EC9CC;
-    }
-    .botao2{
-        width: 19.125rem;
-        height: 5.75rem;
-        flex-shrink: 0;
-        color: #000;
-        font-family: Inter;
-        font-size: 3.75rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-
-
-        width: 33.67494rem;
-        height: 8.06044rem;
-        transform: rotate(0.548deg);
-        flex-shrink: 0;
-        border-radius: 6rem;
-        background: #5EC9CC;
-    }
-}
-
-
-@media (min-width: 1024px) {
-    .descricaosobremim{
-        display: block;
-    }
-    
-    .container{
-        display: flex;
-    }
-    .container3{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .imagempricinpal2{
-        margin-top: 3rem;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-
-        display: block;
-        
-        width: 100%;
-        height: 100%;
         max-width: 100%;
-        height: auto;
-
-       
-        width: 78.875rem;
-        height: 64rem;
-        flex-shrink: 0;
-    }
-    .imagempricinpal{
-        display: none;
-    }
-    .descricaosobremim{
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-       
-        margin-top: 14.95rem;
-      
-        margin-bottom: 2.94rem;
-
-        width: 29.875rem;
-        height: 18.875rem;
-        flex-shrink: 0;
-        color: #FFF;
-
-        font-family: Inter;
-        font-size: 1.75rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
+        font-size: 0.5rem;
+        text-align: center;
+        margin-left: 3rem;
         
     }
-    .topico1{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-left: auto;
-        margin-right: auto;
-
-        margin-top: 6.75rem;
-      
-        margin-bottom: 2.94rem;
-   
-
-        width: 31.25rem;
-        height: 12.5625rem;
-        flex-shrink: 0;
-        color: #5EC9CC;
-
-        font-family: Inter;
-        font-size: 3.375rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
+}
+@media (min-width: 302px){
+    .image1, .image2{
+        width: 12rem; /* Largura do retângulo */
+        height: 4rem; /* Altura do retângulo */
     }
-    .image1{
-    
-        margin-top: 6.88rem;
-        margin-bottom: 4.56rem;
-        margin-left: 20.12rem;
-    
-    
-        width: 4.4375rem;
-        height: 4.5rem;
-        flex-shrink: 0;
-        border-radius: 12.53125rem;
-    
-    }
-    .image2{
-        margin-top: 7.44rem;
-        margin-left: 4.56rem;
-        margin-right: 28.56rem;
-    
-        width: 3.25rem;
-        height: 3.375rem;
-        flex-shrink: 0;
-        border-radius: 5.9375rem;
-    }
-
-    /*Tela 2*/
-
-    .tela2{
-        width: 130rem;
-        height: 64rem;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .imgpokemon{
-        display: none;
-    }
-    .contono{
-        width: 79.625rem;
-        height: 22.75rem;
-        flex-shrink: 0;
-        border: 2px solid #5EC9CC;
-        background-color: black;
-    }
-    .texto{
+    .github, .linkedin{
        
-        margin-left: 5.5rem;
-        margin-top: 0rem;
-
-        width: 39.3125rem;
-        height: 8.125rem;
-        flex-shrink: 0;
-        color: #FFF;
-
-        font-family: Inter;
-        font-size: 2.1875rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    .botoes{
-        display: flex;
-        flex-direction: row;
-    }
-    .botao{
-        margin-top: 0;
+        max-width: 100%;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-left: 3rem;
         
-        width: 19.6875rem;
-        height: 5.5rem;
-        flex-shrink: 0;
-        border-radius: 6rem;
-        background: #5EC9CC;
-
     }
-    .botao2{
-        width: 19.6875rem;
-        height: 5.5rem;
-        flex-shrink: 0;
-        border-radius: 6rem;
-        background: #5EC9CC;
+}
+
+@media (max-width: 414px) {
+    .container {
+        max-width: 90%;
     }
-    .imgpokemon2{
-        display: block;
-        margin-top: 2.94rem;
-        margin-right: 4.97rem;
 
+    .imagens-lado-a-lado {
+        flex-direction: column;
+    }
 
-        width: 15.1875rem;
-        height: 16.25rem;
-        flex-shrink: 0;
-        border-radius: 7.125rem;
+    .imagens-lado-a-lado img {
+        width: 100%;
+        margin: 10px 0;
+    }
 
+    .titulo {
+        font-size: calc(2rem + 1vw);
+    }
+
+    .descricao {
+        font-size: 14px;
+    }
+    .image1, .image2{
+        width: 12rem; /* Largura do retângulo */
+        height: 4rem; /* Altura do retângulo */
+    }
+    .github, .linkedin{
+        max-width: 100%;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-left: 3rem;
+        
+    }
+
+}
+@media (min-width: 414px) and (max-width: 768px){
+    .image1, .image2{
+        width: 18rem; /* Largura do retângulo */
+        height: 6rem; /* Altura do retângulo */
+    }
+    .github, .linkedin{
+        max-width: 100%;
+        font-size: 2rem;
+        text-align: center;
+        margin-left: 3rem;
+        
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+    .container {
+        max-width: 90%;
+    }
+
+    .imagens-lado-a-lado {
+        flex-direction: column;
+    }
+
+    .imagens-lado-a-lado img {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .titulo {
+        font-size: calc(4rem + 1vw);
+    }
+
+    .descricao {
+        font-size: 14px;
+    }
+    .image1, .image2{
+        width: 21rem; /* Largura do retângulo */
+        height: 7rem; /* Altura do retângulo */
     }
     
+    .github, .linkedin{
+        max-width: 100%;
+        font-size: 3rem;
+        text-align: center;
+        margin-left: 3rem;
+        
+    }
+}
+@media (min-width: 1200) {
+    .container {
+        max-width: 90%;
+    }
+
+    .imagens-lado-a-lado {
+        flex-direction: column;
+    }
+
+    .imagens-lado-a-lado img {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .titulo {
+        font-size: calc(5rem + 1vw);
+    }
+
+    .descricao {
+        font-size: 14px;
+    }
+    .image1, .image2{
+        width: 27rem; /* Largura do retângulo */
+        height: 9rem; /* Altura do retângulo */
+    }
+    
+    .github, .linkedin{
+        max-width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        margin-left: 3rem;
+        
+    }
 }
