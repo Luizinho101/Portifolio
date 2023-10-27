@@ -430,10 +430,12 @@ html{
 
 .topico1{
     
-    margin-top: 3.25rem;
-    margin-bottom: 5.38rem;
-    margin-left: 2.12rem;
-    margin-right: 2.19rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
 
     width: 18.1875rem;
     height: 5.9375rem;
@@ -447,20 +449,24 @@ html{
     line-height: normal;
 }
 .container{
+    margin-left: auto;
+    margin-right: auto;
    
-    width: 22.5rem;
-    height: 40rem;
+   
     background: black;
     
 }
 .imagempricinpal{
+    
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+   
 
     margin-bottom: 4.31rem;
-    margin-left: 2.69rem;
-    margin-right: 2.19rem;
+   
 
     width: 17.625rem;
     height: 17.625rem;
@@ -471,10 +477,15 @@ html{
     display: flex;
 }
 .image1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
 
     margin-top: 4.6rem;
     margin-bottom: 1.94rem;
-    margin-left: 7rem;
+   
 
 
     width: 2.5625rem;
@@ -484,9 +495,13 @@ html{
 
 }
 .image2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 4.90rem;
-    margin-left: 2.75rem;
-    margin-right: 8.13rem;
+    margin-left: -2.75rem;
 
     width: 2.0625rem;
     height: 2.375rem;
@@ -500,75 +515,120 @@ html{
     display: none;
 }
 
-@media screen and (min-width: 500px) and (max-width: 767px){
 
-    .topico1{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    
-        margin-top: 6.50rem;
-        margin-bottom: 10.38rem;
-        margin-left: 4.12rem;
-        margin-right: 4.19rem;
-    
-        width: 36.1875rem;
-        height: 11.9375rem;
-        flex-shrink: 0;
-        color: #5EC9CC;
-    
-        font-family: Inter;
-        font-size: 2.5rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    .imagempricinpal {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-       
-
-        width: 39.375rem;
-        height: 33.8125rem;
-        flex-shrink: 0;
-    }
-    .image1{
-
-        margin-top: 8.6rem;
-        margin-bottom: 2.94rem;
-        margin-left: 14rem;
-    
-    
-        width: 4.5625rem;
-        height: 4.8125rem;
-        flex-shrink: 0;
-        border-radius: 12.53125rem;
-    
-    }
-    .image2{
-        margin-top: 9.35rem;
-        margin-left: 4.75rem;
-        margin-right: 16.13rem;
-    
-        width: 4.0625rem;
-        height: 4.375rem;
-        flex-shrink: 0;
-        border-radius: 5.9375rem;
-    }
-
+/*tela 2*/
+.tela2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
 }
+.contono{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem; /* Largura do retângulo */
+    height: 40rem; /* Altura do retângulo */
+    border-radius: 4rem;
+    border: 2px solid #5EC9CC; 
+    background-color: black;
+}
+.texto{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1rem;
+    width: 17.12594rem;
+    height: 12.90725rem;
+    transform: rotate(-0.268deg);
+    flex-shrink: 0;
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.imgpokemon{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+
+    width: 9.01219rem;
+    height: 8.10806rem;
+    transform: rotate(-0.357deg);
+    flex-shrink: 0;
+    border-radius: 7.125rem;
+    
+}
+.imgpokemon2{
+    display: none;
+}
+.botoes{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+.botao{
+    
+    /*Deixando respondido*/
+    
+   
+    /*Contorno do botao*/
+    width: 14.11544rem;
+    height: 4.20413rem;
+    transform: rotate(0.44deg);
+    flex-shrink: 0;
+    border-radius: 6rem;
+    background: #5EC9CC;
+
+    /*Texto do botao*/
+   
+    
+    transform: rotate(0.643deg);
+    color: #000;
+    
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.botao2{
+    margin-top: 0.3rem;
+    color: #000;
+
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 14.11544rem;
+    height: 4.20413rem;
+    transform: rotate(0.44deg);
+    flex-shrink: 0;
+    border-radius: 6rem;
+    background: #5EC9CC;
+    }
+
 
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .topico1 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-top: 7.31rem;
+        margin-left: auto;
+        margin-right: auto;
+    
+        
         margin-bottom: 3.87rem;
-        margin-left: 6.94rem;
-        margin-right: 9.25rem;
+        
 
         width: 35.9375rem;
         height: 10.375rem;
@@ -582,25 +642,33 @@ html{
         line-height: normal;
     }
     .imagempricinpal {
+        margin-left: auto;
+        margin-right: auto;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         margin-top: 5rem;
-        margin-left: 6.37rem;
-        margin-right: 6.37rem;
+       
 
-        width: 39.375rem;
+        width: 30.375rem;
         height: 33.8125rem;
         flex-shrink: 0;
     }
     .imagens{
         display: flex;
+       
+       
     }
     .image1{
-    
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+
         margin-top: 6.88rem;
         margin-bottom: 4.56rem;
-        margin-left: 19.12rem;
+       
     
     
         width: 4.4375rem;
@@ -610,16 +678,113 @@ html{
     
     }
     .image2{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: -10rem;
+        
         margin-top: 7.44rem;
-        margin-left: 4.56rem;
-        margin-right: 28.56rem;
+      
+      
     
         width: 3.25rem;
         height: 3.375rem;
         flex-shrink: 0;
         border-radius: 5.9375rem;
     }
+
+    /*tela2*/
+    .tela2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: black;
+    }
+    .contono{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40rem; /* Largura do retângulo */
+        height: 80rem; /* Altura do retângulo */
+        border-radius: 4rem;
+        border: 2px solid #5EC9CC; 
+        background-color: black;
+    }
+    .imgpokemon{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-left: 12.8rem;
+        width: 21.12494rem;
+        height: 21.126rem;
+        transform: rotate(-0.444deg);
+        flex-shrink: 0;
+        border-radius: 7.125rem;
+    }
+    .texto{
+        width: 35.40725rem;
+        height: 15.97981rem;
+        transform: rotate(-0.333deg);
+        flex-shrink: 0;
+        color: #FFF;
+
+        font-family: Inter;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .botao{
+        width: 19.68156rem;
+        height: 5.75188rem;
+        transform: rotate(0.8deg);
+        flex-shrink: 0;
+        color: #000;
+        font-family: Inter;
+        font-size: 3.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+
+        width: 33.67494rem;
+        height: 8.06044rem;
+        transform: rotate(0.548deg);
+        flex-shrink: 0;
+        border-radius: 6rem;
+        background: #5EC9CC;
+    }
+    .botao2{
+        width: 19.125rem;
+        height: 5.75rem;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Inter;
+        font-size: 3.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+
+        width: 33.67494rem;
+        height: 8.06044rem;
+        transform: rotate(0.548deg);
+        flex-shrink: 0;
+        border-radius: 6rem;
+        background: #5EC9CC;
+    }
 }
+
+
 @media (min-width: 1024px) {
     .descricaosobremim{
         display: block;
@@ -634,15 +799,18 @@ html{
         flex-wrap: wrap;
     }
     .imagempricinpal2{
+        margin-top: 3rem;
+        margin-left: auto;
+        margin-right: auto;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
 
         display: block;
         
-        width: 200%;
-        height: 200%;
-        max-width: 200%;
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
         height: auto;
 
        
@@ -654,9 +822,14 @@ html{
         display: none;
     }
     .descricaosobremim{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
        
         margin-top: 14.95rem;
-        margin-left: 6.06rem;
+      
         margin-bottom: 2.94rem;
 
         width: 29.875rem;
@@ -675,11 +848,13 @@ html{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
 
         margin-top: 6.75rem;
-        margin-left: 6.06rem;
+      
         margin-bottom: 2.94rem;
-        margin-right: 11.5rem;
+   
 
         width: 31.25rem;
         height: 12.5625rem;
@@ -714,6 +889,78 @@ html{
         height: 3.375rem;
         flex-shrink: 0;
         border-radius: 5.9375rem;
+    }
+
+    /*Tela 2*/
+
+    .tela2{
+        width: 130rem;
+        height: 64rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .imgpokemon{
+        display: none;
+    }
+    .contono{
+        width: 79.625rem;
+        height: 22.75rem;
+        flex-shrink: 0;
+        border: 2px solid #5EC9CC;
+        background-color: black;
+    }
+    .texto{
+       
+        margin-left: 5.5rem;
+        margin-top: 0rem;
+
+        width: 39.3125rem;
+        height: 8.125rem;
+        flex-shrink: 0;
+        color: #FFF;
+
+        font-family: Inter;
+        font-size: 2.1875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .botoes{
+        display: flex;
+        flex-direction: row;
+    }
+    .botao{
+        margin-top: 0;
+        
+        width: 19.6875rem;
+        height: 5.5rem;
+        flex-shrink: 0;
+        border-radius: 6rem;
+        background: #5EC9CC;
+
+    }
+    .botao2{
+        width: 19.6875rem;
+        height: 5.5rem;
+        flex-shrink: 0;
+        border-radius: 6rem;
+        background: #5EC9CC;
+    }
+    .imgpokemon2{
+        display: block;
+        margin-top: 2.94rem;
+        margin-right: 4.97rem;
+
+
+        width: 15.1875rem;
+        height: 16.25rem;
+        flex-shrink: 0;
+        border-radius: 7.125rem;
+
     }
     
 }
